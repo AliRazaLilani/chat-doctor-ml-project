@@ -137,7 +137,7 @@ def _make_w_io_base(f, mode: str):
         if f_dirname != "":
             os.makedirs(f_dirname, exist_ok=True)
         f = open(f, mode=mode)
-    return f
+    return f~
 
 
 def _make_r_io_base(f, mode: str):
